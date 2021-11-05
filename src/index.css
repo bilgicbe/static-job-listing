@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bgimage {
+  background-image: url(./assets/bg-header-mobile.svg);
+}
+
+@media only screen and (min-width: 1024) {
+  .bgimage {
+    background-image: url(./assets/bg-header-desktop.svg)
+  }
+}
