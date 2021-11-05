@@ -1,7 +1,6 @@
 import JobBoardComponent from "./components/JobBoardComponent";
 import data from "./assets/data.json"
 import React, { useState, useEffect } from "react";
-import bgdesktop from "./assets/images/bg-header-desktop.svg";
 
 function App() {
   const [jobs, setJobs] = useState([])
@@ -49,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <header className="bg-teal-500 mb-12">
-        <img src={bgdesktop} alt="bg"/>
+        <img src="./images/bg-header-desktop.svg" alt="bg"/>
       </header>
       {filters.length > 0 && (
         <div className="flex flex-wrap bg-white shadow-lg 
